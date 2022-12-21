@@ -1,5 +1,4 @@
-
-<table>
+<table width="border:0;">
     <tr>
         <td>
             <img src="images/ansible-logo.png" width="200px">
