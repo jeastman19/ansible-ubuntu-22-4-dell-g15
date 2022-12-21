@@ -12,6 +12,7 @@
     - minikube
     - kubectl
     - vsc
+    - terraform
     - role: oh-my-zsh
       users:
         - username: jeastman

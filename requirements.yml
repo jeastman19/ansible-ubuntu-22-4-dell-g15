@@ -18,3 +18,6 @@
 
 - name: vsc
   src: gantsign.visual-studio-code
+
+- name: terraform
+  src: andrewrothstein.terraform
