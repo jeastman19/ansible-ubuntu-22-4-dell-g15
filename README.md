@@ -1,13 +1,10 @@
-<table width="border:0;">
-    <tr>
-        <td>
-            <img src="images/ansible-logo.png" width="200px">
-        </td>
-        <td>
-            <img src="images/ubuntu-logo14.png" width="200px">
-        </td>
-    </tr>
-</table>
+<img src="images/dell-g15-5515-ryzen-edition.png" width="100px" alt="Dell G15 5515 Ryzen">
+<img src="images/ansible-logo.png" width="100px">
+<img src="images/ubuntu-logo14.png" width="100px">
+<img src="images/docker.png" width="100px">
+<img src="images/docker-compose-logo.png" width="100px">
+<img src="images/Amazon_Web_Services_Logo.png" width="100px">
+<img src="images/minikube-logo-mini.png" width="100px">
 
 # Ansible Dell G15 5515 con Ubuntu 22.04
 

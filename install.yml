@@ -9,6 +9,7 @@
     - aws-cli
     - docker
     - docker-compose
+    - minikube
     - role: oh-my-zsh
       users:
         - username: jeastman

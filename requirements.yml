@@ -4,16 +4,16 @@
 - name: docker-compose
   src: andrewrothstein.docker-compose
 
+- name: minikube
+  src: gantsign.minikube
+
 - name: oh-my-zsh
   src: gantsign.oh-my-zsh
 
-# docker
-# docker-compose
-# kubectl
 # minikube
+# kubectl
+
 # nvm/node.js
-# Opera (browser)
 # podman
-# rustc
 # terraform
 # Visual Studio Code
