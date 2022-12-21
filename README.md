@@ -64,23 +64,11 @@ Existen en [Ansible Galaxy][ansible galaxy] una gran cantidad de roles que nos p
 -   [Kubectl](https://galaxy.ansible.com/andrewrothstein/kubectl)
 -   [Docker Compose](https://galaxy.ansible.com/andrewrothstein/docker-compose)
 -   [Minikube](https://galaxy.ansible.com/gantsign/minikube)
-
 -   [Kubectl](https://galaxy.ansible.com/andrewrothstein/kubectl)
-
--   name: nvm
-    src: stephdewit.nvm
-
--   name: oh-my-zsh
-    src: gantsign.oh-my-zsh
-
--   name: vsc
-    src: gantsign.visual-studio-code
-
--   name: terraform
-    src: andrewrothstein.terraform
-
--   name: postman
-    src: gantsign.postman
+-   [Oh my zsh](https://galaxy.ansible.com/gantsign/oh-my-zsh)
+-   [Visual Studio Code](https://galaxy.ansible.com/gantsign/visual-studio-code)
+-   [Terraform](https://galaxy.ansible.com/andrewrothstein/terraform)
+-   [Postman](https://github.com/gantsign/ansible-role-postman)
 
 # TODO
 
