@@ -21,3 +21,6 @@
 
 - name: terraform
   src: andrewrothstein.terraform
+
+- name: slack
+  src: oefenweb.slack

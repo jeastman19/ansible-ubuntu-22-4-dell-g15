@@ -8,6 +8,7 @@
 <img src="images/nvm.png" width="100px">
 <img src="images/vsc.png" width="100px">
 <img src="images/terraform.png" width="100px">
+<img src="images/Slack.png" width="100px">
 
 # Aprovicionamiento de equipo con Ubuntu 22.04 LTS utilizando Ansible
 
