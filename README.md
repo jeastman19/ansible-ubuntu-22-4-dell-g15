@@ -5,7 +5,7 @@
             <img src="images/ansible-logo.png" width="200px">
         </td>
         <td>
-            <img src="images/Ubuntu-22-04-LTS-new-features-Stackscale-blog.jpg" width="200px">
+            <img src="images/ubuntu-logo14.png" width="200px">
         </td>
     </tr>
 </table>
