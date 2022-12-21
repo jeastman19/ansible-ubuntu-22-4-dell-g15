@@ -7,11 +7,11 @@
 - name: minikube
   src: gantsign.minikube
 
+- name: kubectl
+  src: andrewrothstein.kubectl
+
 - name: oh-my-zsh
   src: gantsign.oh-my-zsh
-
-# minikube
-# kubectl
 
 # nvm/node.js
 # podman
