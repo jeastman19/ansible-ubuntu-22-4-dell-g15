@@ -3,7 +3,6 @@
   stat:
     path: /usr/local/bin/aws
   register: aws_exists
-  
 
 - name: Download aws-cli
   get_url:
@@ -22,6 +21,6 @@
   shell: /tmp/aws/install
   when: not aws_exists.stat.exists
 
-- name: Update current instalation
-  shell: /usr/local/bin/aws --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli  --update
-  when: aws_exists.stat.exists
+# - name: Update current instalation
+#   shell: /usr/local/bin/aws --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli  --update
+#   when: aws_exists.stat.exists

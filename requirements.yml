@@ -1,10 +1,11 @@
+- name: docker
+  src: geerlingguy.docker
+  
 - name: oh-my-zsh
   src: gantsign.oh-my-zsh
 
-# Chromium
 # docker
 # docker-compose
-# golang
 # kubectl
 # minikube
 # nvm/node.js
