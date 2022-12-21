@@ -1,0 +1,27 @@
+---
+- name: aws exists
+  stat:
+    path: /usr/local/bin/aws
+  register: aws_exists
+  
+
+- name: Download aws-cli
+  get_url:
+    url: https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip
+    dest: /tmp/awscliv2.zip
+    mode: '0755'
+
+- name: Unzip aws-cli
+  unarchive:
+    src: /tmp/awscliv2.zip
+    dest: /tmp
+    remote_src: yes
+    mode: '0755'
+
+- name: Install aws-cli
+  shell: /tmp/aws/install
+  when: not aws_exists.stat.exists
+
+- name: Update current instalation
+  shell: /usr/local/bin/aws --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli  --update
+  when: aws_exists.stat.exists

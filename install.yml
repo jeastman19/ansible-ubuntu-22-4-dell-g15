@@ -5,6 +5,8 @@
   connection: local
   become: yes
   roles:
-    - role: gantsign.oh-my-zsh
+    - commons
+    - aws-cli
+    - role: oh-my-zsh
       users:
         - username: jeastman

@@ -13,6 +13,17 @@
 
 Aprovicionamiento de la Laptop de trabajo
 
+## Contenido de este proyecto
+
+### requirements.yml
+En este archivo están todos los Roles requeridos que serán instalados por Ansible previo a la ejecución del playbook.
+
+Con el fin de facilitar la instalación de los roles, se ha creado un script denominado ***install-roles.sh*** que se encarga de descargar los roles requeridos, para ello se debe ejecutar:
+
+~~~sh
+./install-roles.sh
+~~~
+
 ## Instalar Ansible
 
 ~~~sh

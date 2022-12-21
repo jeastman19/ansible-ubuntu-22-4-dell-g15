@@ -1,8 +1,15 @@
-- name: Oh my zsh
+- name: oh-my-zsh
   src: gantsign.oh-my-zsh
 
-- name: Git
-  src: geerlingguy.git
-
-- name: Tree
-  src: nephelaiio.tree
+# Chromium
+# docker
+# docker-compose
+# golang
+# kubectl
+# minikube
+# nvm/node.js
+# Opera (browser)
+# podman
+# rustc
+# terraform
+# Visual Studio Code
