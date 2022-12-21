@@ -1,0 +1,5 @@
+- name: Oh my zsh
+  src: gantsign.oh-my-zsh
+
+- name: Git
+  src: geerlingguy.git
