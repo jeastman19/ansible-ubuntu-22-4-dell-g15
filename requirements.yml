@@ -24,3 +24,6 @@
 
 - name: postman
   src: gantsign.postman
+
+- name: tilix
+  src: darkwizard242.tilix
