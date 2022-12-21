@@ -9,9 +9,14 @@
 <img src="images/vsc.png" width="100px">
 <img src="images/terraform.png" width="100px">
 
-# Ansible Dell G15 5515 con Ubuntu 22.04
+# Aprovicionamiento de equipo con Ubuntu 22.04 LTS utilizando Ansible
 
-Aprovicionamiento de la Laptop de trabajo
+# Contenido
+
+* [Introducción](#introducción)
+  * [Requeriments](#requirementsyml)
+  * [Instalar Ansible](#instalar-ansible)
+  * [Roles externos](#roles-externos)
 
 ## Contenido de este proyecto
 
