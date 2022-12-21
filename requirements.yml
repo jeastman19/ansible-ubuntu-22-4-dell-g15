@@ -1,6 +1,9 @@
 - name: docker
   src: geerlingguy.docker
-  
+
+- name: docker-compose
+  src: andrewrothstein.docker-compose
+
 - name: oh-my-zsh
   src: gantsign.oh-my-zsh
 

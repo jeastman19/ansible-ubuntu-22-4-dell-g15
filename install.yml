@@ -8,6 +8,7 @@
     - commons
     - aws-cli
     - docker
+    - docker-compose
     - role: oh-my-zsh
       users:
         - username: jeastman
