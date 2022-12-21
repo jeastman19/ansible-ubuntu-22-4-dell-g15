@@ -1,3 +1,5 @@
+<img src="images/ansible-log.jpg" width="200px">
+
 # Ansible Dell G15 5515 con Ubuntu 22.04
 
 Aprovicionamiento de la Laptop de trabajo
