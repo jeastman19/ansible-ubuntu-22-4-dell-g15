@@ -14,6 +14,7 @@
     - vsc
     - terraform
     - slack
+    - postman
     - role: oh-my-zsh
       users:
         - username: jeastman

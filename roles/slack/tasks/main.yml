@@ -1,0 +1,7 @@
+---
+- name: slack
+  apt:
+    name: slack-desktop
+    update_cache: yes
+    state: present
+

@@ -14,33 +14,38 @@
 
 # Contenido
 
-* [Introducción](#introducción)
-  * [Requeriments](#requirementsyml)
-  * [Instalar Ansible](#instalar-ansible)
-  * [Roles externos](#roles-externos)
+-   [Introducción](#introducción)
+    -   [Requeriments](#requirementsyml)
+    -   [Instalar Ansible](#instalar-ansible)
+    -   [Roles externos](#roles-externos)
 
 ## Contenido de este proyecto
 
 ### requirements.yml
+
 En este archivo están todos los Roles requeridos que serán instalados por Ansible previo a la ejecución del playbook.
 
-Con el fin de facilitar la instalación de los roles, se ha creado un script denominado ***install-roles.sh*** que se encarga de descargar los roles requeridos, para ello se debe ejecutar:
+Con el fin de facilitar la instalación de los roles, se ha creado un script denominado **_install-roles.sh_** que se encarga de descargar los roles requeridos, para ello se debe ejecutar:
 
-~~~sh
+```sh
 ./install-roles.sh
-~~~
+```
 
 ## Instalar Ansible
 
-~~~sh
+```sh
 sudo apt install ansible
-~~~
+```
 
 ## Roles externos
 
 Existen en [Ansible Galaxy][ansible galaxy] una gran cantidad de roles que nos permiten automatizar la instalación de software y configuraciones, en este proyecto hemos utilizado los siguientes:
 
-* [Git](https://galaxy.ansible.com/geerlingguy/git)
-* [Oh my zsh](https://galaxy.ansible.com/gantsign/oh-my-zsh)
+-   [Git](https://galaxy.ansible.com/geerlingguy/git)
+-   [Oh my zsh](https://galaxy.ansible.com/gantsign/oh-my-zsh)
 
-[ansible galaxy]:https://galaxy.ansible.com/
+# TODO
+
+-   Probar: [ansible-galaxy install jonaspammer.bootstrap](https://galaxy.ansible.com/jonaspammer/bootstrap)
+
+[ansible galaxy]: https://galaxy.ansible.com/
