@@ -1,4 +1,14 @@
-<img src="images/ansible-log.jpg" width="200px">
+
+<table>
+    <tr>
+        <td>
+            <img src="images/ansible-logo.png" width="200px">
+        </td>
+        <td>
+            <img src="images/Ubuntu-22-04-LTS-new-features-Stackscale-blog.jpg" width="200px">
+        </td>
+    </tr>
+</table>
 
 # Ansible Dell G15 5515 con Ubuntu 22.04
 
