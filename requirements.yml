@@ -3,3 +3,6 @@
 
 - name: Git
   src: geerlingguy.git
+
+- name: Tree
+  src: nephelaiio.tree
