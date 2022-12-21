@@ -11,6 +11,7 @@
     - docker-compose
     - minikube
     - kubectl
+    - vsc
     - role: oh-my-zsh
       users:
         - username: jeastman

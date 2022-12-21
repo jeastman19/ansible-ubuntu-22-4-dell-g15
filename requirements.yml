@@ -10,10 +10,11 @@
 - name: kubectl
   src: andrewrothstein.kubectl
 
+- name: nvm
+  src: stephdewit.nvm
+
 - name: oh-my-zsh
   src: gantsign.oh-my-zsh
 
-# nvm/node.js
-# podman
-# terraform
-# Visual Studio Code
+- name: vsc
+  src: gantsign.visual-studio-code

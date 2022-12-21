@@ -5,6 +5,8 @@
 <img src="images/docker-compose-logo.png" width="100px">
 <img src="images/Amazon_Web_Services_Logo.png" width="100px">
 <img src="images/minikube-logo-mini.png" width="100px">
+<img src="images/nvm.png" width="100px">
+<img src="images/vsc.png" width="100px">
 
 # Ansible Dell G15 5515 con Ubuntu 22.04
 
