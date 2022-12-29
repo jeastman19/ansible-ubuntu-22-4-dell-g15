@@ -16,6 +16,8 @@
     - slack
     - postman
     - tilix
+    - nvm
+    - dbeaver
     - role: oh-my-zsh
       users:
         - username: jeastman
